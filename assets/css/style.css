@@ -15,11 +15,7 @@ body {
 
 
 .bg {
-	background: #ffffff url("../img/bg.jpg");
-	position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background: #ffffff;
 	height:100%;	
 }
 
@@ -41,6 +37,11 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+
+h2.quote{
+  text-align: right;
+}
+
 
 /*--------------------------------------------------------------
 # Header
