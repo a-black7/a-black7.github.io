@@ -142,7 +142,8 @@ h2.quote{
   margin: 0 -9999rem;
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
-  height: 100px;
+  height: 50px;
+  background: #000000;
 }
 
 .nav-menu ul {
