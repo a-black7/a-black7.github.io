@@ -15,8 +15,12 @@ body {
 
 
 .bg {
-	background: #ffffff;
-	height:100%;	
+  background-image:url("../img/bg.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
 }
 
 @media (min-width: 1024px) {
@@ -36,6 +40,10 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+h1.home{
+	font-family: "adam";
 }
 
 h2.quote{
@@ -61,12 +69,12 @@ h2.quote{
 }
 
 #header h1 {
-  font-size: 48px;
+  font-size: 55px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "adam";
 }
 
 #header h1 a, #header h1 a:hover {
@@ -139,8 +147,7 @@ h2.quote{
 /* Desktop Navigation */
 .nav-menu {
   margin-top: 35px;
-  background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 54%, rgba(255,255,255,1) 100%);
+
 }
 
 .nav-menu ul {
