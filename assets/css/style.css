@@ -30,7 +30,11 @@ body {
 }
 
 a {
-  color: #d87958;
+  color: #000000;
+}
+
+.header-top a {
+  color: #ffffff;
 }
 
 a:hover {
@@ -78,7 +82,12 @@ h2.quote{
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #000000;
+  line-height: 1;
+  display: inline-block;
+}
+
+
+#header h1.active a, #header h1 a:hover {
   line-height: 1;
   display: inline-block;
 }
@@ -164,7 +173,6 @@ h2.quote{
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 1);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -188,7 +196,6 @@ h2.quote{
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -293,6 +300,7 @@ h2.quote{
   margin-right: auto;
   font-size: 36px;
 }
+
 
 #header.header-top .container {
   display: flex;
@@ -533,7 +541,7 @@ section .container {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #fff;
+  color: #000000;
 }
 
 .testimonials .testimonial-item h4 {
@@ -563,7 +571,7 @@ section .container {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 20px 20px;
   background: rgba(255, 255, 255, 0.1);
   position: relative;
   border-radius: 6px;
